@@ -17,13 +17,13 @@ spring:
   #2.数据库连接池
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://114.55.30.250:3306/HRM?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://101.34.61.141:3306/HRM?useUnicode=true&characterEncoding=utf8
     username: root
     password: yhmysql
     hikari:
       maximum-pool-size: 2
   redis:
-    host: 114.55.30.250
+    host: 101.34.61.141
     port: 6379
   #3.JPA
   jpa:
